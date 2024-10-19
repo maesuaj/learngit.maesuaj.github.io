@@ -61,6 +61,11 @@ nav a:hover {
     width: 6rem;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
 .banner {
     height: 20rem;
     width: 100%;
