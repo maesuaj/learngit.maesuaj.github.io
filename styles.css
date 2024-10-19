@@ -41,6 +41,11 @@ nav ul {
     list-style: none;
 }
 
+nav li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 nav a {
     text-decoration: none;
     color: inherit;
@@ -54,6 +59,12 @@ nav a:hover {
 .logo {
     height: 5rem;
     width: 6rem;
+}
+
+.banner {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 main {
